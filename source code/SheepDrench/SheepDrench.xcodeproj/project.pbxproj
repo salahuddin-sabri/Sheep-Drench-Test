@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180C53E71CFEC84900155253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C53E61CFEC84900155253 /* main.m */; };
+		180C53EA1CFEC84900155253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C53E91CFEC84900155253 /* AppDelegate.m */; };
+		180C53F21CFEC84900155253 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180C53F11CFEC84900155253 /* Images.xcassets */; };
+		180C541B1CFECCB400155253 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180C541A1CFECCB400155253 /* Default-568h@2x.png */; };
+		18B663DA1D0FB38200586182 /* FinalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B663D91D0FB38200586182 /* FinalData.m */; };
+		18D44F081D0E68AC00982F0A /* DrenchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D44F071D0E68AC00982F0A /* DrenchData.m */; };
+		18E372831DD2E12700D0CEBB /* UserGuide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18E372821DD2E12600D0CEBB /* UserGuide.pdf */; };
+		18E372851DD2EA0600D0CEBB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E372841DD2EA0600D0CEBB /* Icon.png */; };
+		6DBAD4838AD27F66AC02305C /* Pods_SheepDrench.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E040576F70F88E59C62DDEA8 /* Pods_SheepDrench.framework */; };
+		84061B501D20E93200D95FB3 /* InputWarmPlanCostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84061B4E1D20E93200D95FB3 /* InputWarmPlanCostViewController.m */; };
+		84061B511D20E93200D95FB3 /* InputWarmPlanCostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84061B4F1D20E93200D95FB3 /* InputWarmPlanCostViewController.xib */; };
+		84061B551D211E2000D95FB3 /* ResourcesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84061B531D211E2000D95FB3 /* ResourcesCell.m */; };
+		84061B561D211E2000D95FB3 /* ResourcesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84061B541D211E2000D95FB3 /* ResourcesCell.xib */; };
+		840A92011D25241100A752FD /* EditPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A91FF1D25241100A752FD /* EditPlanViewController.m */; };
+		840A92021D25241100A752FD /* EditPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840A92001D25241100A752FD /* EditPlanViewController.xib */; };
+		84446F811D0142FF00597D30 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446F7A1D0142FF00597D30 /* MainViewController.m */; };
+		84446F821D0142FF00597D30 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84446F7B1D0142FF00597D30 /* MainViewController.xib */; };
+		84446F831D0142FF00597D30 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446F7D1D0142FF00597D30 /* SplashViewController.m */; };
+		84446F841D0142FF00597D30 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84446F7E1D0142FF00597D30 /* SplashViewController.xib */; };
+		84446F8B1D0143A200597D30 /* DrenchAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446F891D0143A200597D30 /* DrenchAnalysisViewController.m */; };
+		84446F8C1D0143A200597D30 /* DrenchAnalysisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84446F8A1D0143A200597D30 /* DrenchAnalysisViewController.xib */; };
+		84446F971D01502700597D30 /* DrenchAnalysisOutPutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446F951D01502700597D30 /* DrenchAnalysisOutPutViewController.m */; };
+		84446F981D01502700597D30 /* DrenchAnalysisOutPutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84446F961D01502700597D30 /* DrenchAnalysisOutPutViewController.xib */; };
+		84446F9D1D015DE600597D30 /* ExpandableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84446F9B1D015DE600597D30 /* ExpandableCell.m */; };
+		84446F9E1D015DE600597D30 /* ExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84446F9C1D015DE600597D30 /* ExpandableCell.xib */; };
+		8446923C1D2A660A00CE380B /* WorkPlanCostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8446923B1D2A660A00CE380B /* WorkPlanCostDetailViewController.xib */; };
+		845AF9B01D1001B20096526B /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845AF9AB1D1001B20096526B /* PDFViewController.m */; };
+		845AF9B11D1001B20096526B /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845AF9AC1D1001B20096526B /* PDFViewController.xib */; };
+		845AF9B21D1001B20096526B /* ResourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845AF9AE1D1001B20096526B /* ResourcesViewController.m */; };
+		845AF9B31D1001B20096526B /* ResourcesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845AF9AF1D1001B20096526B /* ResourcesViewController.xib */; };
+		847929DD1D7834F200D57875 /* CYDECTIN® 1% Flyer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 847929DC1D7834F200D57875 /* CYDECTIN® 1% Flyer.pdf */; };
+		847929DF1D7835C100D57875 /* CYDECTIN® TriclaMox Flyer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 847929DE1D7835C100D57875 /* CYDECTIN® TriclaMox Flyer.pdf */; };
+		8490DD171D106C07002C1001 /* STARTECT_DT_Farmer_Ad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8490DD161D106C07002C1001 /* STARTECT_DT_Farmer_Ad.pdf */; };
+		84D0B4821D811ECC00580776 /* STARTECT Product Characteristics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84D0B4811D811ECC00580776 /* STARTECT Product Characteristics.pdf */; };
+		84D0B4841D81210900580776 /* CydectinLAFlyer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84D0B4831D81210900580776 /* CydectinLAFlyer.pdf */; };
+		84D0C7731D112D2100D5D744 /* NetReturnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C7711D112D2100D5D744 /* NetReturnViewController.m */; };
+		84D0C7741D112D2100D5D744 /* NetReturnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C7721D112D2100D5D744 /* NetReturnViewController.xib */; };
+		84D7EABD1D92461800665FEA /* STARTECT Datasheet.doc in Resources */ = {isa = PBXBuildFile; fileRef = 84D7EABC1D92461800665FEA /* STARTECT Datasheet.doc */; };
+		84D7EAC11D926C7A00665FEA /* Disclaimer and further information.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84D7EAC01D926C7A00665FEA /* Disclaimer and further information.pdf */; };
+		84DD36691D59C04C0029B35C /* STARTECT.doc in Resources */ = {isa = PBXBuildFile; fileRef = 84DD36681D59C04C0029B35C /* STARTECT.doc */; };
+		84DD36711D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Datasheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84DD366A1D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Datasheet.pdf */; };
+		84DD36721D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Flyer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84DD366B1D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Flyer.pdf */; };
+		84DD36731D59CA240029B35C /* CYDECTIN 1% Injectable Solution Datasheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84DD366C1D59CA240029B35C /* CYDECTIN 1% Injectable Solution Datasheet.pdf */; };
+		84DD36741D59CA240029B35C /* CYDECTIN 20 mg LA Solution Datasheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84DD366D1D59CA240029B35C /* CYDECTIN 20 mg LA Solution Datasheet.pdf */; };
+		84DD36751D59CA240029B35C /* CYDECTIN TriclaMox Datasheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84DD366E1D59CA240029B35C /* CYDECTIN TriclaMox Datasheet.pdf */; };
+		84DD36761D59CA240029B35C /* STARTECT dual active knockout drench.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84DD366F1D59CA240029B35C /* STARTECT dual active knockout drench.pdf */; };
+		84F139351D13BDB4007EC50C /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139131D13BDB4007EC50C /* IQNSArray+Sort.m */; };
+		84F139361D13BDB4007EC50C /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139151D13BDB4007EC50C /* IQUITextFieldView+Additions.m */; };
+		84F139371D13BDB4007EC50C /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139171D13BDB4007EC50C /* IQUIView+Hierarchy.m */; };
+		84F139381D13BDB4007EC50C /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139191D13BDB4007EC50C /* IQUIViewController+Additions.m */; };
+		84F139391D13BDB4007EC50C /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1391B1D13BDB4007EC50C /* IQUIWindow+Hierarchy.m */; };
+		84F1393A1D13BDB4007EC50C /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139201D13BDB4007EC50C /* IQKeyboardManager.m */; };
+		84F1393B1D13BDB4007EC50C /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139221D13BDB4007EC50C /* IQKeyboardReturnKeyHandler.m */; };
+		84F1393C1D13BDB4007EC50C /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139251D13BDB4007EC50C /* IQSegmentedNextPrevious.m */; };
+		84F1393D1D13BDB4007EC50C /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139281D13BDB4007EC50C /* IQTextView.m */; };
+		84F1393E1D13BDB4007EC50C /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1392B1D13BDB4007EC50C /* IQBarButtonItem.m */; };
+		84F1393F1D13BDB4007EC50C /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1392D1D13BDB4007EC50C /* IQTitleBarButtonItem.m */; };
+		84F139401D13BDB4007EC50C /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1392F1D13BDB4007EC50C /* IQToolbar.m */; };
+		84F139411D13BDB4007EC50C /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F139311D13BDB4007EC50C /* IQUIView+IQKeyboardToolbar.m */; };
+		84F139421D13BDB4007EC50C /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84F139341D13BDB4007EC50C /* IQKeyboardManager.bundle */; };
+		84F3F2091D069B5100418878 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F3F2081D069B5100418878 /* QuartzCore.framework */; };
+		84F82A3E1D053DD70070DDD1 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84F82A3B1D053DD70070DDD1 /* Gotham-Bold.otf */; };
+		84F82A3F1D053DD70070DDD1 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84F82A3C1D053DD70070DDD1 /* Gotham-Book.otf */; };
+		84F82A401D053DD70070DDD1 /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84F82A3D1D053DD70070DDD1 /* Gotham-Medium.otf */; };
+		84F82A461D0542810070DDD1 /* WarmPlanCostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F82A441D0542810070DDD1 /* WarmPlanCostViewController.m */; };
+		84F82A471D0542810070DDD1 /* WarmPlanCostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F82A451D0542810070DDD1 /* WarmPlanCostViewController.xib */; };
+		84F82A4C1D0591C10070DDD1 /* WorkPlanCostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F82A4A1D0591C10070DDD1 /* WorkPlanCostDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180C53E11CFEC84900155253 /* SheepDrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheepDrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180C53E51CFEC84900155253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180C53E61CFEC84900155253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180C53E81CFEC84900155253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180C53E91CFEC84900155253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180C53F11CFEC84900155253 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		180C53FF1CFEC84900155253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180C54001CFEC84A00155253 /* SheepDrenchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheepDrenchTests.m; sourceTree = "<group>"; };
+		180C541A1CFECCB400155253 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18B663D81D0FB38100586182 /* FinalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalData.h; sourceTree = "<group>"; };
+		18B663D91D0FB38200586182 /* FinalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalData.m; sourceTree = "<group>"; };
+		18D44F061D0E68AC00982F0A /* DrenchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrenchData.h; sourceTree = "<group>"; };
+		18D44F071D0E68AC00982F0A /* DrenchData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrenchData.m; sourceTree = "<group>"; };
+		18E372821DD2E12600D0CEBB /* UserGuide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UserGuide.pdf; sourceTree = "<group>"; };
+		18E372841DD2EA0600D0CEBB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1DB8C7B508559ECFE47E6876 /* Pods-SheepDrench.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheepDrench.debug.xcconfig"; path = "Target Support Files/Pods-SheepDrench/Pods-SheepDrench.debug.xcconfig"; sourceTree = "<group>"; };
+		84061B4D1D20E93200D95FB3 /* InputWarmPlanCostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputWarmPlanCostViewController.h; sourceTree = "<group>"; };
+		84061B4E1D20E93200D95FB3 /* InputWarmPlanCostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputWarmPlanCostViewController.m; sourceTree = "<group>"; };
+		84061B4F1D20E93200D95FB3 /* InputWarmPlanCostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputWarmPlanCostViewController.xib; sourceTree = "<group>"; };
+		84061B521D211E2000D95FB3 /* ResourcesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesCell.h; sourceTree = "<group>"; };
+		84061B531D211E2000D95FB3 /* ResourcesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesCell.m; sourceTree = "<group>"; };
+		84061B541D211E2000D95FB3 /* ResourcesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourcesCell.xib; sourceTree = "<group>"; };
+		840A91FE1D25241100A752FD /* EditPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPlanViewController.h; sourceTree = "<group>"; };
+		840A91FF1D25241100A752FD /* EditPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPlanViewController.m; sourceTree = "<group>"; };
+		840A92001D25241100A752FD /* EditPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditPlanViewController.xib; sourceTree = "<group>"; };
+		84446F791D0142FF00597D30 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		84446F7A1D0142FF00597D30 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		84446F7B1D0142FF00597D30 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		84446F7C1D0142FF00597D30 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		84446F7D1D0142FF00597D30 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		84446F7E1D0142FF00597D30 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		84446F881D0143A200597D30 /* DrenchAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrenchAnalysisViewController.h; sourceTree = "<group>"; };
+		84446F891D0143A200597D30 /* DrenchAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrenchAnalysisViewController.m; sourceTree = "<group>"; };
+		84446F8A1D0143A200597D30 /* DrenchAnalysisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrenchAnalysisViewController.xib; sourceTree = "<group>"; };
+		84446F941D01502700597D30 /* DrenchAnalysisOutPutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrenchAnalysisOutPutViewController.h; sourceTree = "<group>"; };
+		84446F951D01502700597D30 /* DrenchAnalysisOutPutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrenchAnalysisOutPutViewController.m; sourceTree = "<group>"; };
+		84446F961D01502700597D30 /* DrenchAnalysisOutPutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrenchAnalysisOutPutViewController.xib; sourceTree = "<group>"; };
+		84446F9A1D015DE600597D30 /* ExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableCell.h; sourceTree = "<group>"; };
+		84446F9B1D015DE600597D30 /* ExpandableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableCell.m; sourceTree = "<group>"; };
+		84446F9C1D015DE600597D30 /* ExpandableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableCell.xib; sourceTree = "<group>"; };
+		8446923B1D2A660A00CE380B /* WorkPlanCostDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkPlanCostDetailViewController.xib; sourceTree = "<group>"; };
+		845AF9AA1D1001B20096526B /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		845AF9AB1D1001B20096526B /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		845AF9AC1D1001B20096526B /* PDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFViewController.xib; sourceTree = "<group>"; };
+		845AF9AD1D1001B20096526B /* ResourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesViewController.h; sourceTree = "<group>"; };
+		845AF9AE1D1001B20096526B /* ResourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesViewController.m; sourceTree = "<group>"; };
+		845AF9AF1D1001B20096526B /* ResourcesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourcesViewController.xib; sourceTree = "<group>"; };
+		847929DC1D7834F200D57875 /* CYDECTIN® 1% Flyer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CYDECTIN® 1% Flyer.pdf"; sourceTree = "<group>"; };
+		847929DE1D7835C100D57875 /* CYDECTIN® TriclaMox Flyer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CYDECTIN® TriclaMox Flyer.pdf"; sourceTree = "<group>"; };
+		8490DD161D106C07002C1001 /* STARTECT_DT_Farmer_Ad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = STARTECT_DT_Farmer_Ad.pdf; sourceTree = "<group>"; };
+		84D0B4811D811ECC00580776 /* STARTECT Product Characteristics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "STARTECT Product Characteristics.pdf"; sourceTree = "<group>"; };
+		84D0B4831D81210900580776 /* CydectinLAFlyer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CydectinLAFlyer.pdf; sourceTree = "<group>"; };
+		84D0C7701D112D2100D5D744 /* NetReturnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetReturnViewController.h; sourceTree = "<group>"; };
+		84D0C7711D112D2100D5D744 /* NetReturnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetReturnViewController.m; sourceTree = "<group>"; };
+		84D0C7721D112D2100D5D744 /* NetReturnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetReturnViewController.xib; sourceTree = "<group>"; };
+		84D7EABC1D92461800665FEA /* STARTECT Datasheet.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STARTECT Datasheet.doc"; sourceTree = "<group>"; };
+		84D7EAC01D926C7A00665FEA /* Disclaimer and further information.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Disclaimer and further information.pdf"; sourceTree = "<group>"; };
+		84DD36681D59C04C0029B35C /* STARTECT.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = STARTECT.doc; sourceTree = "<group>"; };
+		84DD366A1D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Datasheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CYDECTIN 0.1% Oral Solution Datasheet.pdf"; sourceTree = "<group>"; };
+		84DD366B1D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Flyer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CYDECTIN 0.1% Oral Solution Flyer.pdf"; sourceTree = "<group>"; };
+		84DD366C1D59CA240029B35C /* CYDECTIN 1% Injectable Solution Datasheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CYDECTIN 1% Injectable Solution Datasheet.pdf"; sourceTree = "<group>"; };
+		84DD366D1D59CA240029B35C /* CYDECTIN 20 mg LA Solution Datasheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CYDECTIN 20 mg LA Solution Datasheet.pdf"; sourceTree = "<group>"; };
+		84DD366E1D59CA240029B35C /* CYDECTIN TriclaMox Datasheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CYDECTIN TriclaMox Datasheet.pdf"; sourceTree = "<group>"; };
+		84DD366F1D59CA240029B35C /* STARTECT dual active knockout drench.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "STARTECT dual active knockout drench.pdf"; sourceTree = "<group>"; };
+		84F139121D13BDB4007EC50C /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		84F139131D13BDB4007EC50C /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		84F139141D13BDB4007EC50C /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		84F139151D13BDB4007EC50C /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		84F139161D13BDB4007EC50C /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		84F139171D13BDB4007EC50C /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		84F139181D13BDB4007EC50C /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		84F139191D13BDB4007EC50C /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		84F1391A1D13BDB4007EC50C /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		84F1391B1D13BDB4007EC50C /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		84F1391D1D13BDB4007EC50C /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		84F1391E1D13BDB4007EC50C /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		84F1391F1D13BDB4007EC50C /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		84F139201D13BDB4007EC50C /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		84F139211D13BDB4007EC50C /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		84F139221D13BDB4007EC50C /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		84F139241D13BDB4007EC50C /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		84F139251D13BDB4007EC50C /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		84F139271D13BDB4007EC50C /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		84F139281D13BDB4007EC50C /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		84F1392A1D13BDB4007EC50C /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		84F1392B1D13BDB4007EC50C /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		84F1392C1D13BDB4007EC50C /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		84F1392D1D13BDB4007EC50C /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		84F1392E1D13BDB4007EC50C /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		84F1392F1D13BDB4007EC50C /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		84F139301D13BDB4007EC50C /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		84F139311D13BDB4007EC50C /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		84F139321D13BDB4007EC50C /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		84F139341D13BDB4007EC50C /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		84F3F2081D069B5100418878 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84F82A3B1D053DD70070DDD1 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		84F82A3C1D053DD70070DDD1 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		84F82A3D1D053DD70070DDD1 /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.otf"; sourceTree = "<group>"; };
+		84F82A431D0542810070DDD1 /* WarmPlanCostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmPlanCostViewController.h; sourceTree = "<group>"; };
+		84F82A441D0542810070DDD1 /* WarmPlanCostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmPlanCostViewController.m; sourceTree = "<group>"; };
+		84F82A451D0542810070DDD1 /* WarmPlanCostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WarmPlanCostViewController.xib; sourceTree = "<group>"; };
+		84F82A491D0591C10070DDD1 /* WorkPlanCostDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkPlanCostDetailViewController.h; sourceTree = "<group>"; };
+		84F82A4A1D0591C10070DDD1 /* WorkPlanCostDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkPlanCostDetailViewController.m; sourceTree = "<group>"; };
+		E040576F70F88E59C62DDEA8 /* Pods_SheepDrench.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SheepDrench.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E120C42B1A11C89A4602F267 /* Pods-SheepDrench.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheepDrench.release.xcconfig"; path = "Target Support Files/Pods-SheepDrench/Pods-SheepDrench.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180C53DE1CFEC84900155253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F3F2091D069B5100418878 /* QuartzCore.framework in Frameworks */,
+				6DBAD4838AD27F66AC02305C /* Pods_SheepDrench.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180C53D81CFEC84900155253 = {
+			isa = PBXGroup;
+			children = (
+				18E372821DD2E12600D0CEBB /* UserGuide.pdf */,
+				18E372841DD2EA0600D0CEBB /* Icon.png */,
+				8490DD161D106C07002C1001 /* STARTECT_DT_Farmer_Ad.pdf */,
+				84F3F2081D069B5100418878 /* QuartzCore.framework */,
+				180C541A1CFECCB400155253 /* Default-568h@2x.png */,
+				180C53E31CFEC84900155253 /* SheepDrench */,
+				180C53FD1CFEC84900155253 /* SheepDrenchTests */,
+				180C53E21CFEC84900155253 /* Products */,
+				1DE93932EB823F2682664FFF /* Pods */,
+				3536DDBE6085B01F53A8D8E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		180C53E21CFEC84900155253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180C53E11CFEC84900155253 /* SheepDrench.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180C53E31CFEC84900155253 /* SheepDrench */ = {
+			isa = PBXGroup;
+			children = (
+				84DFC9EB1D2238C8008BFC30 /* Resources */,
+				84446F991D015DA800597D30 /* CustomCell */,
+				84446F851D01436B00597D30 /* Model */,
+				84446F861D01436B00597D30 /* ThirdPartyLibrary */,
+				84446F751D0142FF00597D30 /* ViewControllers */,
+				180C53E81CFEC84900155253 /* AppDelegate.h */,
+				180C53E91CFEC84900155253 /* AppDelegate.m */,
+				180C53F11CFEC84900155253 /* Images.xcassets */,
+				180C53E41CFEC84900155253 /* Supporting Files */,
+			);
+			path = SheepDrench;
+			sourceTree = "<group>";
+		};
+		180C53E41CFEC84900155253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180C53E51CFEC84900155253 /* Info.plist */,
+				180C53E61CFEC84900155253 /* main.m */,
+				84F82A3B1D053DD70070DDD1 /* Gotham-Bold.otf */,
+				84F82A3C1D053DD70070DDD1 /* Gotham-Book.otf */,
+				84F82A3D1D053DD70070DDD1 /* Gotham-Medium.otf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180C53FD1CFEC84900155253 /* SheepDrenchTests */ = {
+			isa = PBXGroup;
+			children = (
+				180C54001CFEC84A00155253 /* SheepDrenchTests.m */,
+				180C53FE1CFEC84900155253 /* Supporting Files */,
+			);
+			path = SheepDrenchTests;
+			sourceTree = "<group>";
+		};
+		180C53FE1CFEC84900155253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180C53FF1CFEC84900155253 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DE93932EB823F2682664FFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DB8C7B508559ECFE47E6876 /* Pods-SheepDrench.debug.xcconfig */,
+				E120C42B1A11C89A4602F267 /* Pods-SheepDrench.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3536DDBE6085B01F53A8D8E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E040576F70F88E59C62DDEA8 /* Pods_SheepDrench.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840A91FD1D2523F600A752FD /* EditPlanPage */ = {
+			isa = PBXGroup;
+			children = (
+				840A91FE1D25241100A752FD /* EditPlanViewController.h */,
+				840A91FF1D25241100A752FD /* EditPlanViewController.m */,
+				840A92001D25241100A752FD /* EditPlanViewController.xib */,
+			);
+			path = EditPlanPage;
+			sourceTree = "<group>";
+		};
+		84446F751D0142FF00597D30 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84446F7C1D0142FF00597D30 /* SplashViewController.h */,
+				84446F7D1D0142FF00597D30 /* SplashViewController.m */,
+				84446F7E1D0142FF00597D30 /* SplashViewController.xib */,
+				84446F791D0142FF00597D30 /* MainViewController.h */,
+				84446F7A1D0142FF00597D30 /* MainViewController.m */,
+				84446F7B1D0142FF00597D30 /* MainViewController.xib */,
+				84446F871D0143A200597D30 /* DrenchAnalysisPage */,
+				84F82A421D0542670070DDD1 /* WormPlanCostPage */,
+				84F3F2021D0691D200418878 /* ResourcesPage */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84446F851D01436B00597D30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D44F061D0E68AC00982F0A /* DrenchData.h */,
+				18D44F071D0E68AC00982F0A /* DrenchData.m */,
+				18B663D81D0FB38100586182 /* FinalData.h */,
+				18B663D91D0FB38200586182 /* FinalData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84446F861D01436B00597D30 /* ThirdPartyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				84F139101D13BDB4007EC50C /* IQKeyBoardManager */,
+			);
+			path = ThirdPartyLibrary;
+			sourceTree = "<group>";
+		};
+		84446F871D0143A200597D30 /* DrenchAnalysisPage */ = {
+			isa = PBXGroup;
+			children = (
+				84446F881D0143A200597D30 /* DrenchAnalysisViewController.h */,
+				84446F891D0143A200597D30 /* DrenchAnalysisViewController.m */,
+				84446F8A1D0143A200597D30 /* DrenchAnalysisViewController.xib */,
+				84446F931D01500300597D30 /* DrenchAnalysisO:pPAge */,
+			);
+			path = DrenchAnalysisPage;
+			sourceTree = "<group>";
+		};
+		84446F931D01500300597D30 /* DrenchAnalysisO:pPAge */ = {
+			isa = PBXGroup;
+			children = (
+				84446F941D01502700597D30 /* DrenchAnalysisOutPutViewController.h */,
+				84446F951D01502700597D30 /* DrenchAnalysisOutPutViewController.m */,
+				84446F961D01502700597D30 /* DrenchAnalysisOutPutViewController.xib */,
+			);
+			path = "DrenchAnalysisO:pPAge";
+			sourceTree = "<group>";
+		};
+		84446F991D015DA800597D30 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				84446F9A1D015DE600597D30 /* ExpandableCell.h */,
+				84446F9B1D015DE600597D30 /* ExpandableCell.m */,
+				84446F9C1D015DE600597D30 /* ExpandableCell.xib */,
+				84061B521D211E2000D95FB3 /* ResourcesCell.h */,
+				84061B531D211E2000D95FB3 /* ResourcesCell.m */,
+				84061B541D211E2000D95FB3 /* ResourcesCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		845AF9A91D1001B20096526B /* PdfPage */ = {
+			isa = PBXGroup;
+			children = (
+				845AF9AA1D1001B20096526B /* PDFViewController.h */,
+				845AF9AB1D1001B20096526B /* PDFViewController.m */,
+				845AF9AC1D1001B20096526B /* PDFViewController.xib */,
+			);
+			path = PdfPage;
+			sourceTree = "<group>";
+		};
+		84D0C76F1D112D0600D5D744 /* NetReturnPage */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C7701D112D2100D5D744 /* NetReturnViewController.h */,
+				84D0C7711D112D2100D5D744 /* NetReturnViewController.m */,
+				84D0C7721D112D2100D5D744 /* NetReturnViewController.xib */,
+				840A91FD1D2523F600A752FD /* EditPlanPage */,
+			);
+			path = NetReturnPage;
+			sourceTree = "<group>";
+		};
+		84DFC9EB1D2238C8008BFC30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84D7EAC01D926C7A00665FEA /* Disclaimer and further information.pdf */,
+				84D7EABC1D92461800665FEA /* STARTECT Datasheet.doc */,
+				847929DE1D7835C100D57875 /* CYDECTIN® TriclaMox Flyer.pdf */,
+				847929DC1D7834F200D57875 /* CYDECTIN® 1% Flyer.pdf */,
+				84DD366A1D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Datasheet.pdf */,
+				84DD366B1D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Flyer.pdf */,
+				84DD366C1D59CA240029B35C /* CYDECTIN 1% Injectable Solution Datasheet.pdf */,
+				84DD366D1D59CA240029B35C /* CYDECTIN 20 mg LA Solution Datasheet.pdf */,
+				84DD366E1D59CA240029B35C /* CYDECTIN TriclaMox Datasheet.pdf */,
+				84DD366F1D59CA240029B35C /* STARTECT dual active knockout drench.pdf */,
+				84D0B4811D811ECC00580776 /* STARTECT Product Characteristics.pdf */,
+				84DD36681D59C04C0029B35C /* STARTECT.doc */,
+				84D0B4831D81210900580776 /* CydectinLAFlyer.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84F139101D13BDB4007EC50C /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				84F139111D13BDB4007EC50C /* Categories */,
+				84F1391C1D13BDB4007EC50C /* Constants */,
+				84F1391F1D13BDB4007EC50C /* IQKeyboardManager.h */,
+				84F139201D13BDB4007EC50C /* IQKeyboardManager.m */,
+				84F139211D13BDB4007EC50C /* IQKeyboardReturnKeyHandler.h */,
+				84F139221D13BDB4007EC50C /* IQKeyboardReturnKeyHandler.m */,
+				84F139231D13BDB4007EC50C /* IQSegmentedNextPrevious */,
+				84F139261D13BDB4007EC50C /* IQTextView */,
+				84F139291D13BDB4007EC50C /* IQToolbar */,
+				84F139321D13BDB4007EC50C /* KeyboardManager.h */,
+				84F139331D13BDB4007EC50C /* Resources */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		84F139111D13BDB4007EC50C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				84F139121D13BDB4007EC50C /* IQNSArray+Sort.h */,
+				84F139131D13BDB4007EC50C /* IQNSArray+Sort.m */,
+				84F139141D13BDB4007EC50C /* IQUITextFieldView+Additions.h */,
+				84F139151D13BDB4007EC50C /* IQUITextFieldView+Additions.m */,
+				84F139161D13BDB4007EC50C /* IQUIView+Hierarchy.h */,
+				84F139171D13BDB4007EC50C /* IQUIView+Hierarchy.m */,
+				84F139181D13BDB4007EC50C /* IQUIViewController+Additions.h */,
+				84F139191D13BDB4007EC50C /* IQUIViewController+Additions.m */,
+				84F1391A1D13BDB4007EC50C /* IQUIWindow+Hierarchy.h */,
+				84F1391B1D13BDB4007EC50C /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		84F1391C1D13BDB4007EC50C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84F1391D1D13BDB4007EC50C /* IQKeyboardManagerConstants.h */,
+				84F1391E1D13BDB4007EC50C /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		84F139231D13BDB4007EC50C /* IQSegmentedNextPrevious */ = {
+			isa = PBXGroup;
+			children = (
+				84F139241D13BDB4007EC50C /* IQSegmentedNextPrevious.h */,
+				84F139251D13BDB4007EC50C /* IQSegmentedNextPrevious.m */,
+			);
+			path = IQSegmentedNextPrevious;
+			sourceTree = "<group>";
+		};
+		84F139261D13BDB4007EC50C /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				84F139271D13BDB4007EC50C /* IQTextView.h */,
+				84F139281D13BDB4007EC50C /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		84F139291D13BDB4007EC50C /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				84F1392A1D13BDB4007EC50C /* IQBarButtonItem.h */,
+				84F1392B1D13BDB4007EC50C /* IQBarButtonItem.m */,
+				84F1392C1D13BDB4007EC50C /* IQTitleBarButtonItem.h */,
+				84F1392D1D13BDB4007EC50C /* IQTitleBarButtonItem.m */,
+				84F1392E1D13BDB4007EC50C /* IQToolbar.h */,
+				84F1392F1D13BDB4007EC50C /* IQToolbar.m */,
+				84F139301D13BDB4007EC50C /* IQUIView+IQKeyboardToolbar.h */,
+				84F139311D13BDB4007EC50C /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		84F139331D13BDB4007EC50C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84F139341D13BDB4007EC50C /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84F3F2021D0691D200418878 /* ResourcesPage */ = {
+			isa = PBXGroup;
+			children = (
+				845AF9AD1D1001B20096526B /* ResourcesViewController.h */,
+				845AF9AE1D1001B20096526B /* ResourcesViewController.m */,
+				845AF9AF1D1001B20096526B /* ResourcesViewController.xib */,
+				845AF9A91D1001B20096526B /* PdfPage */,
+			);
+			path = ResourcesPage;
+			sourceTree = "<group>";
+		};
+		84F82A421D0542670070DDD1 /* WormPlanCostPage */ = {
+			isa = PBXGroup;
+			children = (
+				84061B4D1D20E93200D95FB3 /* InputWarmPlanCostViewController.h */,
+				84061B4E1D20E93200D95FB3 /* InputWarmPlanCostViewController.m */,
+				84061B4F1D20E93200D95FB3 /* InputWarmPlanCostViewController.xib */,
+				84F82A431D0542810070DDD1 /* WarmPlanCostViewController.h */,
+				84F82A441D0542810070DDD1 /* WarmPlanCostViewController.m */,
+				84F82A451D0542810070DDD1 /* WarmPlanCostViewController.xib */,
+				84F82A481D0591A40070DDD1 /* WorkPlanCostDetailPage */,
+			);
+			path = WormPlanCostPage;
+			sourceTree = "<group>";
+		};
+		84F82A481D0591A40070DDD1 /* WorkPlanCostDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				84F82A491D0591C10070DDD1 /* WorkPlanCostDetailViewController.h */,
+				84F82A4A1D0591C10070DDD1 /* WorkPlanCostDetailViewController.m */,
+				8446923B1D2A660A00CE380B /* WorkPlanCostDetailViewController.xib */,
+				84D0C76F1D112D0600D5D744 /* NetReturnPage */,
+			);
+			name = WorkPlanCostDetailPage;
+			path = SheepDrench/ViewControllers/WorkPlanCostDetailPage;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180C53E01CFEC84900155253 /* SheepDrench */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180C54041CFEC84A00155253 /* Build configuration list for PBXNativeTarget "SheepDrench" */;
+			buildPhases = (
+				868E1DA4DC60760445D07C6A /* [CP] Check Pods Manifest.lock */,
+				180C53DD1CFEC84900155253 /* Sources */,
+				180C53DE1CFEC84900155253 /* Frameworks */,
+				180C53DF1CFEC84900155253 /* Resources */,
+				F69D59A0EA76AB928D212E78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SheepDrench;
+			productName = SheepDrench;
+			productReference = 180C53E11CFEC84900155253 /* SheepDrench.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180C53D91CFEC84900155253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Hivelet;
+				TargetAttributes = {
+					180C53E01CFEC84900155253 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6J9C6RUX7M;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 180C53DC1CFEC84900155253 /* Build configuration list for PBXProject "SheepDrench" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 180C53D81CFEC84900155253;
+			productRefGroup = 180C53E21CFEC84900155253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180C53E01CFEC84900155253 /* SheepDrench */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180C53DF1CFEC84900155253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D7EAC11D926C7A00665FEA /* Disclaimer and further information.pdf in Resources */,
+				840A92021D25241100A752FD /* EditPlanViewController.xib in Resources */,
+				847929DF1D7835C100D57875 /* CYDECTIN® TriclaMox Flyer.pdf in Resources */,
+				84061B511D20E93200D95FB3 /* InputWarmPlanCostViewController.xib in Resources */,
+				180C53F21CFEC84900155253 /* Images.xcassets in Resources */,
+				84446F841D0142FF00597D30 /* SplashViewController.xib in Resources */,
+				8446923C1D2A660A00CE380B /* WorkPlanCostDetailViewController.xib in Resources */,
+				84DD36691D59C04C0029B35C /* STARTECT.doc in Resources */,
+				845AF9B31D1001B20096526B /* ResourcesViewController.xib in Resources */,
+				8490DD171D106C07002C1001 /* STARTECT_DT_Farmer_Ad.pdf in Resources */,
+				84061B561D211E2000D95FB3 /* ResourcesCell.xib in Resources */,
+				845AF9B11D1001B20096526B /* PDFViewController.xib in Resources */,
+				18E372831DD2E12700D0CEBB /* UserGuide.pdf in Resources */,
+				84F82A401D053DD70070DDD1 /* Gotham-Medium.otf in Resources */,
+				84F82A3F1D053DD70070DDD1 /* Gotham-Book.otf in Resources */,
+				18E372851DD2EA0600D0CEBB /* Icon.png in Resources */,
+				84DD36741D59CA240029B35C /* CYDECTIN 20 mg LA Solution Datasheet.pdf in Resources */,
+				84DD36731D59CA240029B35C /* CYDECTIN 1% Injectable Solution Datasheet.pdf in Resources */,
+				84446F981D01502700597D30 /* DrenchAnalysisOutPutViewController.xib in Resources */,
+				84DD36711D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Datasheet.pdf in Resources */,
+				84D7EABD1D92461800665FEA /* STARTECT Datasheet.doc in Resources */,
+				84DD36761D59CA240029B35C /* STARTECT dual active knockout drench.pdf in Resources */,
+				84F139421D13BDB4007EC50C /* IQKeyboardManager.bundle in Resources */,
+				84D0C7741D112D2100D5D744 /* NetReturnViewController.xib in Resources */,
+				180C541B1CFECCB400155253 /* Default-568h@2x.png in Resources */,
+				84446F8C1D0143A200597D30 /* DrenchAnalysisViewController.xib in Resources */,
+				84446F9E1D015DE600597D30 /* ExpandableCell.xib in Resources */,
+				84D0B4841D81210900580776 /* CydectinLAFlyer.pdf in Resources */,
+				847929DD1D7834F200D57875 /* CYDECTIN® 1% Flyer.pdf in Resources */,
+				84D0B4821D811ECC00580776 /* STARTECT Product Characteristics.pdf in Resources */,
+				84F82A3E1D053DD70070DDD1 /* Gotham-Bold.otf in Resources */,
+				84F82A471D0542810070DDD1 /* WarmPlanCostViewController.xib in Resources */,
+				84446F821D0142FF00597D30 /* MainViewController.xib in Resources */,
+				84DD36751D59CA240029B35C /* CYDECTIN TriclaMox Datasheet.pdf in Resources */,
+				84DD36721D59CA240029B35C /* CYDECTIN 0.1% Oral Solution Flyer.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		868E1DA4DC60760445D07C6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SheepDrench-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69D59A0EA76AB928D212E78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SheepDrench/Pods-SheepDrench-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SheepDrench/Pods-SheepDrench-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180C53DD1CFEC84900155253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F1393B1D13BDB4007EC50C /* IQKeyboardReturnKeyHandler.m in Sources */,
+				84446F971D01502700597D30 /* DrenchAnalysisOutPutViewController.m in Sources */,
+				84F82A461D0542810070DDD1 /* WarmPlanCostViewController.m in Sources */,
+				84F139371D13BDB4007EC50C /* IQUIView+Hierarchy.m in Sources */,
+				180C53EA1CFEC84900155253 /* AppDelegate.m in Sources */,
+				84446F9D1D015DE600597D30 /* ExpandableCell.m in Sources */,
+				84F82A4C1D0591C10070DDD1 /* WorkPlanCostDetailViewController.m in Sources */,
+				180C53E71CFEC84900155253 /* main.m in Sources */,
+				840A92011D25241100A752FD /* EditPlanViewController.m in Sources */,
+				84F1393A1D13BDB4007EC50C /* IQKeyboardManager.m in Sources */,
+				18D44F081D0E68AC00982F0A /* DrenchData.m in Sources */,
+				84F1393F1D13BDB4007EC50C /* IQTitleBarButtonItem.m in Sources */,
+				84F139401D13BDB4007EC50C /* IQToolbar.m in Sources */,
+				84F1393D1D13BDB4007EC50C /* IQTextView.m in Sources */,
+				84061B501D20E93200D95FB3 /* InputWarmPlanCostViewController.m in Sources */,
+				84F139351D13BDB4007EC50C /* IQNSArray+Sort.m in Sources */,
+				845AF9B21D1001B20096526B /* ResourcesViewController.m in Sources */,
+				84D0C7731D112D2100D5D744 /* NetReturnViewController.m in Sources */,
+				84446F831D0142FF00597D30 /* SplashViewController.m in Sources */,
+				84F139391D13BDB4007EC50C /* IQUIWindow+Hierarchy.m in Sources */,
+				84F1393E1D13BDB4007EC50C /* IQBarButtonItem.m in Sources */,
+				18B663DA1D0FB38200586182 /* FinalData.m in Sources */,
+				84F139361D13BDB4007EC50C /* IQUITextFieldView+Additions.m in Sources */,
+				84F1393C1D13BDB4007EC50C /* IQSegmentedNextPrevious.m in Sources */,
+				84446F811D0142FF00597D30 /* MainViewController.m in Sources */,
+				84F139381D13BDB4007EC50C /* IQUIViewController+Additions.m in Sources */,
+				845AF9B01D1001B20096526B /* PDFViewController.m in Sources */,
+				84F139411D13BDB4007EC50C /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				84061B551D211E2000D95FB3 /* ResourcesCell.m in Sources */,
+				84446F8B1D0143A200597D30 /* DrenchAnalysisViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		180C54021CFEC84A00155253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBC_NOTICES = NO;
+				IBC_WARNINGS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "cb89dce5-40ae-4914-ba68-80f56eddcbad";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180C54031CFEC84A00155253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBC_NOTICES = NO;
+				IBC_WARNINGS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "cb89dce5-40ae-4914-ba68-80f56eddcbad";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180C54051CFEC84A00155253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB8C7B508559ECFE47E6876 /* Pods-SheepDrench.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_NOTICES = NO;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6J9C6RUX7M;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = SheepDrench/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hivelet.Hivelet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cb89dce5-40ae-4914-ba68-80f56eddcbad";
+				PROVISIONING_PROFILE_SPECIFIER = GlobalDevlopment;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		180C54061CFEC84A00155253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E120C42B1A11C89A4602F267 /* Pods-SheepDrench.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_NOTICES = NO;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hivelet, LLC";
+				DEVELOPMENT_TEAM = 6J9C6RUX7M;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = SheepDrench/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hivelet.SheepDrench;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cb89dce5-40ae-4914-ba68-80f56eddcbad";
+				PROVISIONING_PROFILE_SPECIFIER = SheepDrench_Dist;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180C53DC1CFEC84900155253 /* Build configuration list for PBXProject "SheepDrench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180C54021CFEC84A00155253 /* Debug */,
+				180C54031CFEC84A00155253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180C54041CFEC84A00155253 /* Build configuration list for PBXNativeTarget "SheepDrench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180C54051CFEC84A00155253 /* Debug */,
+				180C54061CFEC84A00155253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180C53D91CFEC84900155253 /* Project object */;
+}
